@@ -1,7 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
+    '@nuxt/content',
+    'nuxt-icon',
+    '@nuxt/image',
+  ],
   routeRules: {
     '/': { prerender: true }
   }
