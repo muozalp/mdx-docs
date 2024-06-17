@@ -3,6 +3,14 @@ title: Home
 navigation: false
 ---
 
+::hero
+---
+announcement:
+  title: 'Release v0.2.0'
+  icon: 'noto:party-popper'
+
+---
+
 #title
 Effortless and Beautiful<br>Docs Template.
 

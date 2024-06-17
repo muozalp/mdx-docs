@@ -8,10 +8,10 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-icon',
     '@nuxt/image',
-    '@nuxthq/studio'
+    '@nuxthq/studio',
   ],
   studio: {
-    enabled: true
+    enabled: true,
   },
   shadcn: {
     /**
@@ -31,6 +31,9 @@ export default defineNuxtConfig({
         ignore: ['**/*.ts'],
       },
     ],
+  },
+  routeRules: {
+    '/': { prerender: true },
   },
   content: {
     documentDriven: true,
