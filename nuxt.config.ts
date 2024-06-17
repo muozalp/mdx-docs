@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-icon',
     '@nuxt/image',
+    '@nuxthq/studio'
   ],
+  studio: {
+    enabled: true
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -47,6 +51,7 @@ export default defineNuxtConfig({
     },
   },
   typescript: {
+    strict: false,
     tsConfig: {
       compilerOptions: {
         baseUrl: '.',

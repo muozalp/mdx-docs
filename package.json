@@ -46,6 +46,7 @@
     "@antfu/eslint-config": "^2.19.2",
     "@iconify-json/lucide": "^1.1.188",
     "@iconify-json/vscode-icons": "^1.1.34",
+    "@nuxthq/studio": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@vueuse/core": "^10.10.0",
     "@vueuse/nuxt": "^10.10.0",
