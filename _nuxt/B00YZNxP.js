@@ -1,0 +1,1 @@
+import{l as t,c as s,e as o,Y as c}from"./SChKN3eq.js";const r={},n={class:"divide-y [&:not(:first-child)]:mt-6"};function a(e,d){return s(),o("div",n,[c(e.$slots,"default")])}const i=t(r,[["render",a]]);export{i as default};

@@ -1,0 +1,1 @@
+import{l as r,c as t,e as s,Y as o}from"./SChKN3eq.js";const c={},n={class:"m-0 border-t p-0 even:bg-muted/50"};function a(e,l){return t(),s("tr",n,[o(e.$slots,"default")])}const d=r(c,[["render",a]]);export{d as default};

@@ -1,0 +1,1 @@
+import{l as o,c as t,e as c,Y as s}from"./SChKN3eq.js";const r={},l={class:"mt-6 border-l-2 pl-6 italic"};function a(e,n){return t(),c("blockquote",l,[s(e.$slots,"default")])}const d=o(r,[["render",a]]);export{d as default};

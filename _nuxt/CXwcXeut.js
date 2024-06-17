@@ -1,0 +1,1 @@
+import{l as o,c as n,e as t,Y as r}from"./SChKN3eq.js";const c={},s={class:"relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono inline-code"};function d(e,a){return n(),t("code",s,[r(e.$slots,"default",{},void 0,!0)])}const _=o(c,[["render",d],["__scopeId","data-v-fc88e0d7"]]);export{_ as default};

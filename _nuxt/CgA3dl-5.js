@@ -1,0 +1,1 @@
+import{l as r,c as o,e as s,Y as c}from"./SChKN3eq.js";const t={},a={class:"grid md:grid-cols-2 gap-4 group"};function n(e,d){return o(),s("div",a,[c(e.$slots,"default")])}const _=r(t,[["render",n]]);export{_ as default};

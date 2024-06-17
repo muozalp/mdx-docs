@@ -1,0 +1,1 @@
+import{l as s,c as o,e as t,f as a,Y as c}from"./SChKN3eq.js";const l={},r={class:"my-6 w-full overflow-y-auto"},n={class:"w-full"};function f(e,_){return o(),t("div",r,[a("table",n,[c(e.$slots,"default")])])}const u=s(l,[["render",f]]);export{u as default};

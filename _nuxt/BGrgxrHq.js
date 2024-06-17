@@ -1,0 +1,1 @@
+import{l as t,c as r,e as s,Y as c}from"./SChKN3eq.js";const n={},o={class:"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"};function a(e,l){return r(),s("td",o,[c(e.$slots,"default")])}const _=t(n,[["render",a]]);export{_ as default};
