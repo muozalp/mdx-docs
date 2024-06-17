@@ -9,7 +9,48 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
   ],
-  routeRules: {
-    '/': { prerender: true }
-  }
-})
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: 'Ui',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui',
+  },
+  components: {
+    dirs: [
+      {
+        path: './components',
+        ignore: ['**/*.ts'],
+      },
+    ],
+  },
+  content: {
+    documentDriven: true,
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+      },
+      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini'],
+    },
+    navigation: {
+      fields: ['icon'],
+    },
+    experimental: {
+      search: {
+        indexed: true,
+      },
+    },
+  },
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        baseUrl: '.',
+      },
+    },
+  },
+});
