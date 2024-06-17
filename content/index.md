@@ -4,3 +4,4 @@ navigation: false
 ---
 
 ::hero
+::
